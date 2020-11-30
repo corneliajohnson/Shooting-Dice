@@ -22,7 +22,7 @@ namespace ShootingDice
       Result(other, myRoll, otherRoll);
     }
 
-    public void Result(Player other, int myRoll, int otherRoll)
+    public virtual void Result(Player other, int myRoll, int otherRoll)
     {
 
       Console.WriteLine($"{Name} rolls a {myRoll}");
