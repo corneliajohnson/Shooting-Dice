@@ -28,8 +28,5 @@ namespace ShootingDice
         Console.WriteLine("It's a tie");
       }
     }
-
-
-
   }
 }
